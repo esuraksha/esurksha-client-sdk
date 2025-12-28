@@ -1,6 +1,6 @@
 {
   "name": "esurksha-consent-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Client-side Consent SDK for E-Surksha CMS",
   "main": "src/index.js",
   "type": "module",
