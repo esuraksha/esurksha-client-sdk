@@ -4,7 +4,12 @@
 
 <h1>E-Surksha SDK Test (Bundled)</h1>
 
-<script src="./dist/esurksha-1.0.0.min.js"></script>
+<script
+  src="https://cdn.jsdelivr.net/gh/esuraksha/esurksha-client-sdk@v1.0.0/dist/esurksha-1.0.0.min.js"
+  integrity="sha384-xZBjeJZkn6tgzCGSNiAzU9GcFIszLhKVrmet7L0RREU6OnKA45CQulhMh+KtpLDR"
+  crossorigin="anonymous">
+</script>
+
 
 <script>
   ESurksha.init({
@@ -20,5 +25,8 @@
   src="./marketing.js">
 </script>
 
+<button onclick="ESurksha.openPreferences()">
+  Privacy Settings
+</button>
 </body>
 </html>

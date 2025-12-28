@@ -5,6 +5,7 @@ import { saveConsents, getConsents } from './store.js'
 
 import { runConsentScripts } from './script-manager.js'
 
+import { openPreferenceCenter } from './preference-center.js'
 
 async function init(config) {
   setConfig(config)
@@ -36,5 +37,6 @@ async function init(config) {
 }
 
 export default{
-  init
+  init,
+  openPreferences: openPreferenceCenter
 }
